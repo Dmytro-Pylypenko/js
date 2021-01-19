@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    height: 250px;
+    background-color: rgb(189, 168, 168);
+    margin: 10px auto;
+}
+.slider {
+    width: 230px;
+    height: 180px;
+    /* max-width: 80%; */
+    border: 2px solid black;
+    margin: 5px auto;
+    overflow: hidden;
+}
+.slider-line {
+    width: 920px;
+    height: 180px;
+    display: flex;
+    background-color: rgb(247, 241, 239);
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+button img {
+    width: 40px;
+    height: 40px;
+}
+button:hover {
+    background: rgb(241, 154, 154);
+}
+button:active {
+    background-color: black;
+    color: #fff;
+}
+.btn {
+    position: absolute;
+}
